@@ -1,0 +1,22 @@
+package day01;
+
+import java.util.Scanner;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String src = "";
+		String src2 = "";
+		System.out.println("입력하세요:  ");
+		
+		src = sc.next();
+		
+		System.out.println("입력하세요:  ");
+		
+		src2= sc.nextLine();
+	}
+	
+	
+}

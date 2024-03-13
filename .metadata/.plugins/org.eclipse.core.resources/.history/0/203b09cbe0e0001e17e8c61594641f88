@@ -1,0 +1,62 @@
+package day01;
+
+import java.util.Scanner;
+
+public class Ex14 {
+
+	public static void main(String[] args) {
+		/*
+		 * 	14. 사용자로부터 세 개의 정수형태의 문자열을 입력(next() 메소드만 사용)받아 
+			문자열, 정수, 실수를 출력하기
+		 */
+		
+		/*
+		 * 메소드
+		 * 1) 입력메소드 import
+		 * 2) 세 개의 정수타입 변수 선언 
+		 * 3) 출력메시지 
+		 * 4) 문자형 변수 str1에 next() 메소드 선언
+		 * 5) str1 출력
+		 * 6) 출력메시지
+		 * 7) 문형 변수 str2에 next() 메소드 선언
+		 * 8) str2 출력
+		 * 9)
+		 *
+		 */
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num1 = 0, num2 = 0, num3 = 0;
+		
+		System.out.println("숫자를 입력하세요: ");
+		
+		String str1 = sc.next();
+		
+		System.out.println(str1);
+		
+		//----------------------------------------------------------
+		
+		System.out.println("===============");
+		
+		System.out.println("숫자를 입력하세요: ");
+		
+		String str2 = sc.next();
+		
+		System.out.println(Integer.parseInt(str2));
+		
+		//----------------------------------------------------------
+		
+		
+		System.out.println("===============");
+		
+		System.out.println("숫자를 입력하세요: ");
+		
+		String str3 = sc.next();
+		
+		System.out.println(Double.parseDouble(str3));
+		
+		
+		
+		
+	}
+}

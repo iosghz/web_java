@@ -1,0 +1,14 @@
+package day01;
+
+public class Ex2 {
+	
+	public static void main(String[] args) {
+		
+		String str = "Hello" + 123;
+		char ch = 'A' + 1;
+		
+		System.out.println(str);
+		System.out.println(ch);
+	}
+
+}
